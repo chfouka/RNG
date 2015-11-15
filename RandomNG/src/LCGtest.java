@@ -1,0 +1,17 @@
+import java.util.Iterator;
+
+
+public class LCGtest {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+
+		LCG rng = new LCG( new Integer(2), new Integer(1), new Integer(5), new Integer(7), false );
+		Iterator<Integer> it = rng.iterator();
+		for(int i = 0; i < 10 ; i++)
+			System.out.println(it.next());
+	}
+
+}

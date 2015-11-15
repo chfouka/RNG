@@ -1,0 +1,33 @@
+import java.util.Iterator;
+
+
+public class LCG implements Iterable<Integer>  {
+	
+	public Integer factor;
+	public Integer increment;
+	public Integer module;
+	boolean Integer full_period;
+
+	
+	public LCG( Integer factor, Integer increment, Integer module, boolean full_period ){
+	
+		if (full_period){
+			
+			//make checks over parameters
+			
+			
+		}
+		
+		
+		
+	}
+
+	@Override
+	public Iterator<Integer> iterator() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+	 
+
+}
